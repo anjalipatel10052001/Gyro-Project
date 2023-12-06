@@ -1,0 +1,509 @@
+@charset "utf-8";
+
+html {
+    background-color: white;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 50px;
+}
+
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    border-top: 4px solid #f9a825;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+}
+
+.fb-insta-icons img {
+    max-width: 40px;
+    height: auto;
+    margin: 0 5px;
+}
+
+nav {
+    background-color: #444;
+    height: 80px; 
+}
+
+nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li > a:link, li > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+li > a:hover, li > a:active {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+#top {
+    font-weight: bold;
+    max-width: 200px;
+    height: auto;
+    margin: 0 20px;
+}
+
+section > h1 {
+    display: block;
+    clear: both;
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+section > p {
+    display: block;
+    clear: both;
+    margin-top: 10px;
+    color: #666;
+}
+
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+}
+
+section > h2 {
+    display: block;
+    clear: both;
+    margin-top: 50px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+section > h2 > p1 {
+    display: flex;
+    clear: both;
+    margin-left: 390px;
+    font-size: 40px;
+}
+
+section > h1 > img {
+    width: 40%;
+    height: 15%;
+    margin: 20px;
+    align-content: center;
+}
+
+#fav {
+    color: #333;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#aside {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#aside .card {
+    max-width: 300px;
+    margin: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#aside .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+#aside .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+#address {
+    font-size: 4vw; 
+    margin-top: 5vw; 
+}
+
+aside > iframe {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+iframe {
+    width: 95%;
+}
+
+#map {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact a img {
+    width: 4vw; 
+    height: auto;
+    margin-bottom: 2vw;
+}
+
+#contact p {
+    font-size: 2vw; 
+    margin: 1vw 0; 
+}
+
+#contact a {
+    color: #f9a825;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+#contact a:hover {
+    color: #f9a825;
+    text-decoration: overline underline;
+}
+
+#contact, #address, #time, #tea, #fav {
+    color: #333;
+    margin-top: 150px;
+}
+
+#time {
+    font-size: 20px;
+    text-align: center;
+}
+
+#hours-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#hours-table th, #hours-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#hours-table td.closed {
+    color: #f9a825;
+}
+
+#menu-container {
+    text-align: center;
+}
+
+#menu {
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#menu::after {
+    content: "";
+    display: block;
+    border-top: 2px solid #f9a825;
+    margin-top: 20px;
+}
+
+.menu-items {
+    margin-top: 20px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.menu-item img {
+    width: 100%; 
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+#ratings-reviews {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#ratings-reviews h2 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.rating {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review {
+    padding: 20px;
+    border: 2px solid #f9a825;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+}
+
+.review-date {
+    color: #666;
+}
+
+.review-rating {
+    font-style: italic;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.review-text {
+    font-size: 16px;
+    color: #333;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+}
+
+.footer-links {
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 3px;
+}
+
+.footer-links a {
+    font-size: 12px;
+}
+
+.footer-links a:hover {
+    color: #f9a825;
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        font-size: 30px;
+    }
+
+    body {
+        padding-bottom: 80px; 
+    }
+
+    section {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    section h1 {
+        font-size: 30px;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    #aside img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    #address {
+        font-size: 6vw; 
+        margin-top: 8vw; 
+    }
+
+    #contact {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #contact a img {
+        width: 8vw; 
+        margin-bottom: 4vw;
+    }
+
+    #contact p {
+        font-size: 3vw; 
+        margin: 2vw 0;
+    }
+
+    #contact a:hover {
+        color: #f9a825;
+        text-decoration: overline underline;
+    }
+
+    #time {
+        font-size: 30px;
+    }
+
+    #hours-table th, #hours-table td {
+        display: flexbox;
+        width: 100%;
+        box-sizing: border-box;
+        
+    }
+
+    #hours-table th {
+        background-color: #f2f2f2;
+    }
+
+    #hours-table .closed {
+        background-color: inherit;
+    }
+
+    #menu {
+        font-size: 30px;
+    }
+
+    .menu-item {
+        margin-right: 0;
+    }
+
+    #ratings-reviews {
+        margin: 70px;
+        margin-bottom: 180px; 
+    }
+
+    .review {
+        padding: 20px;
+        border: 2px solid #f9a825;
+        border-radius: 5px;
+        margin-bottom: 20px; 
+    }
+
+    footer {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-content div {
+        margin-right: 0;
+        margin-bottom: 0px;
+    }
+
+    #aside {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    #fav {
+        margin-top: 20px;
+    }
+
+    .card {
+        margin: 10px auto; 
+    }
+
+    #map, #contact, #time, #address, #menu-container, #ratings-reviews {
+        margin: 20px;
+    }
+
+}
